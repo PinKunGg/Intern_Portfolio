@@ -37,7 +37,7 @@ function unityproject() {
     document.getElementById("projectshow").innerHTML += '<small class="projectcontent">*เนีิ้องจากตัวเกมมีขนาดที่ค่อนข้างใหญ่จึงไม่สามารถ Upload ขึ้น GitHub หรือ BitBucket ได้</small>'
     document.getElementById("projectshow").innerHTML += '<br>'
 
-    document.getElementById("projectshow").innerHTML += '<br><hr><br><b class="headerproject">Slash and Shoot [AR] - Gameplay</b><br><img src="otherproject/unity/DimensionBreak_1.png" alt="" class="projectimg imgcenter">'
+    document.getElementById("projectshow").innerHTML += '<br><hr><br><b class="headerproject">Slash and Shoot [AR]</b><br><img src="otherproject/unity/SlashAndShoot_1.jpg" alt="" class="projectimg imgcenter">'
     document.getElementById("projectshow").innerHTML += '<p class="projectdescription">"Slash and Shoot เป็นเกม 3D AR ที่จะให้ผู้เล่นป้องกันฐานในเวลาที่กำหนด"</p>'
     document.getElementById("projectshow").innerHTML += '<p class="projectcontent">Slash and Shoot เป็นเกมที่ผมได้ทำขึ้นมาในช่วง ปี 3 เป็นเกม AR ที่ผู้เล่นจะต้องป้องกันฐานของเราในเวลาที่กำหนด</p>'
     document.getElementById("projectshow").innerHTML += '<p class="projectcontent">GitHub: <a href="https://github.com/PinKunGg/SlashAndShoot" target="_blank">https://github.com/PinKunGg/SlashAndShoot</a></p>'
