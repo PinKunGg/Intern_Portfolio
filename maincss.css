@@ -1,0 +1,827 @@
+@font-face {
+    font-family: font1;
+    src: url(portfolio/font/Athiti-Regular.ttf);
+}
+
+
+/* Emblem font ref: https://www.w3schools.com/css/css3_fonts.asp */
+
+
+/* Font reference: https://fonts.google.com/specimen/Athiti?subset=thai&preview.text=Hi!&preview.text_type=custom#standard-styles */
+
+html {
+    scroll-behavior: smooth;
+    font-family: font1;
+}
+
+h2 {
+    background-color: teal;
+    width: max-content;
+    color: white;
+    font-size: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+h1 {
+    background-color: teal;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+.contentcolor1 {
+    background-color: rgba(0, 128, 128, 0.1);
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+.contentcolor2 {
+    background-color: rgb(255, 255, 255);
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: -99;
+}
+
+
+/* Background Video ref: https://www.w3schools.com/howto/howto_css_fullscreen_video.asp */
+
+#colorhead {
+    background-color: teal;
+}
+
+#contentpadding {
+    padding-top: 450px;
+}
+
+#aboutmetxt {
+    font-size: 18px;
+}
+
+#contentBG {
+    background-color: white;
+}
+
+#flexcontainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+#gridcontainer {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+#grid0 {
+    grid-column: 1 / span 1;
+}
+
+#grid1 {
+    width: 1100px;
+    grid-column: 2 / span 1;
+}
+
+#grid2 {
+    grid-column: 3 / span 1;
+}
+
+#grid3 {
+    width: 1700px;
+    padding: 50px;
+    grid-column: 2 / span 1;
+}
+
+#grid4 {
+    width: 1100px;
+    grid-column: 2 / span 1;
+}
+
+#header {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0);
+    position: fixed;
+    top: 0;
+    width: 99.15%;
+    z-index: 99;
+}
+
+#header a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#header a:hover {
+    background-color: aqua;
+    color: black;
+}
+
+#header a.active {
+    background-color: turquoise;
+    color: white;
+}
+
+
+/* "Top navigation bar" ref https://www.w3schools.com/howto/howto_js_topnav.asp */
+
+.dropbtn {
+    background-color: turquoise;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: aqua;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: turquoise;
+}
+
+
+/* DropDownMenu ref: https://www.w3schools.com/css/css_dropdowns.asp */
+
+#footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#footerbar {
+    padding: 1px;
+    background-color: teal;
+    color: white;
+}
+
+#footerbartxt {
+    margin-left: 30px;
+}
+
+#contact {
+    font-size: 16px;
+}
+
+#contact a {
+    text-decoration: underline;
+    color: black;
+}
+
+#firstname {
+    font-size: 80px;
+    font-weight: bold;
+    padding-top: 100px;
+    padding-left: 0px;
+}
+
+#surname {
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+#career {
+    color: rgba(128, 128, 128, 0.7);
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+#careercolor {
+    color: rgba(128, 128, 128, 0.7);
+}
+
+#university {
+    color: rgba(128, 128, 128, 0.7);
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 200px;
+}
+
+#universitycolor {
+    color: rgba(128, 128, 128, 0.7);
+}
+
+#namebgcolor {
+    background-color: teal;
+    color: white;
+}
+
+#profileimg {
+    width: 350px;
+    height: 350px;
+    border-radius: 20%;
+    border: 15px double turquoise;
+    background-color: white;
+}
+
+#profilepicpos {
+    position: absolute;
+    padding-left: 800px;
+    padding-top: 10px;
+}
+
+#maincontentHome {
+    padding-top: 100px;
+}
+
+#maincontentPort {
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.boldtxt {
+    font-weight: bold;
+}
+
+.headertxt {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bigtopichead {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#titlepadding {
+    padding-top: 300px;
+}
+
+#titlebg {
+    background-color: white;
+    padding-bottom: 1px;
+}
+
+.bgimg {
+    top: 0;
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: -99;
+}
+
+.centertxt {
+    text-align: center;
+}
+
+.centerul {
+    padding-left: 450px;
+}
+
+.underlinetxt {
+    text-decoration: underline;
+}
+
+.projectimg {
+    display: block;
+    width: 70%;
+    height: auto;
+}
+
+.imgcenter {
+    margin: auto;
+}
+
+.projecttitle {
+    font-size: 28px;
+    color: black;
+    text-decoration: underline;
+}
+
+.headerproject {
+    font-size: 20px;
+    color: teal;
+}
+
+.projectdescription {
+    color: cadetblue;
+    font-size: 18px;
+}
+
+.projectcontent {
+    text-align: left;
+    margin-left: 100px;
+}
+
+.projectcontent a {
+    text-decoration: underline;
+    color: blue;
+}
+
+.projectcontent a:hover {
+    color: mediumturquoise;
+}
+
+#tableEducation {
+    border-collapse: collapse;
+}
+
+#tableEducation td {
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    padding: 10px;
+    width: 800px;
+    margin: auto;
+}
+
+#tableSoftwareSkill1 {
+    width: 500px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+#tableSoftwareSkill1 td {
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+#tableSoftwareSkill2 {
+    width: 350px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+#tableSoftwareSkill2 td {
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+#tableGitHubBitBucket {
+    width: 400px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+#tableGitHubBitBucket td {
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.button {
+    background-color: cornflowerblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: deepskyblue;
+    border: none;
+    color: white;
+}
+
+.githubbut {
+    background-color: rgb(39, 39, 39);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.githubbut:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(77, 77, 77);
+}
+
+.bitbucketbut {
+    background-color: rgb(0, 102, 197);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.bitbucketbut:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 132, 255);
+}
+
+.portselect {
+    padding-left: 100px;
+    width: 500px;
+}
+
+.portselect button {
+    border: none;
+    border-right: white solid 1px;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    background-color: teal;
+}
+
+.portselect button:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.portselect button.active {
+    background-color: turquoise;
+    color: white;
+}
+
+#portcontainer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#portshowarea {
+    background-color: rgb(43, 43, 43);
+    position: relative;
+    width: 1600px;
+    height: 900px;
+    border: 3px solid ghostwhite;
+}
+
+#GoToTopButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#GoToTopButton:hover {
+    background-color: #555;
+}
+
+
+/* Top Button ref: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
+
+@media only screen and (max-width: 1600px) {
+    #profileimg {
+        width: 270px;
+        height: 270px;
+        border-radius: 20%;
+        border: 15px double turquoise;
+        background-color: white;
+    }
+    #profilepicpos {
+        position: absolute;
+        padding-left: 700px;
+        padding-top: 10px;
+    }
+    #firstname {
+        font-size: 60px;
+        font-weight: bold;
+        padding-top: 100px;
+        padding-left: 0px;
+    }
+    #surname {
+        font-size: 40px;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-left: 100px;
+    }
+    #career {
+        color: rgba(128, 128, 128, 0.7);
+        font-size: 16px;
+        padding-top: 10px;
+        padding-left: 50px;
+    }
+    #university {
+        color: rgba(128, 128, 128, 0.7);
+        font-size: 16px;
+        padding-top: 10px;
+        padding-left: 200px;
+    }
+    #maincontentHome {
+        padding-top: 30px;
+    }
+    #maincontentPort {
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+    h2 {
+        background-color: teal;
+        color: white;
+        font-size: 28px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: teal;
+        width: max-content;
+        text-align: center;
+    }
+    #grid1 {
+        width: 900px;
+        padding: 50px;
+        grid-column: 2 / span 1;
+    }
+    #grid4 {
+        width: 900px;
+    }
+    .centerul {
+        padding-left: 350px;
+    }
+    #portshowarea {
+        background-color: rgb(43, 43, 43);
+        position: relative;
+        width: 800px;
+        height: 450px;
+        border: 3px solid ghostwhite;
+    }
+    #grid3 {
+        width: 900px;
+        padding: 50px;
+        grid-column: 2 / span 1;
+    }
+    .projectimg {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .projectcontent {
+        text-align: left;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #profileimg {
+        width: 300px;
+        height: 300px;
+        border: 10px double turquoise;
+    }
+    #profilepicpos {
+        position: relative;
+        margin: auto;
+        width: 50%;
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    #firstname {
+        font-size: 60px;
+        font-weight: bold;
+        text-align: center;
+        margin: auto;
+        padding-top: 10px;
+        padding-left: 0px;
+        width: max-content;
+    }
+    #surname {
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        margin: auto;
+        padding-top: 10px;
+        padding-left: 0px;
+        width: max-content;
+    }
+    #career {
+        width: max-content;
+        margin: auto;
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+    #university {
+        width: max-content;
+        margin: auto;
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+    #contentpadding {
+        padding-top: 200px;
+    }
+    #maincontentHome {
+        padding-top: 30px;
+    }
+    #maincontentPort {
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
+    h2 {
+        background-color: teal;
+        color: white;
+        font-size: 28px;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    #grid1 {
+        width: 700px;
+    }
+    .centerul {
+        padding-left: 250px;
+    }
+    #tableSoftwareSkill1 {
+        width: 100px;
+    }
+    #tableSoftwareSkill2 {
+        width: 100px;
+    }
+    #tableGitHubBitBucket {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+    #profileimg {
+        width: 200px;
+        height: 200px;
+        border-radius: 20%;
+        border: 10px double turquoise;
+        background-color: white;
+    }
+    #profilepicpos {
+        position: relative;
+        margin: auto;
+        width: 50%;
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    #maincontentHome {
+        padding-top: 10px;
+    }
+    #maincontentPort {
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+    h2 {
+        background-color: teal;
+        color: white;
+        font-size: 28px;
+        padding-left: 5%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    #grid1 {
+        width: 500px;
+    }
+    #grid4 {
+        width: 500px;
+    }
+    .centerul {
+        padding-left: 150px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #portshowarea {
+        background-color: rgb(43, 43, 43);
+        position: relative;
+        width: 400px;
+        height: 225px;
+        border: 3px solid ghostwhite;
+    }
+    .portselect button {
+        border: none;
+        border-right: white solid 1px;
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 5px;
+        font-size: 12px;
+        background-color: teal;
+    }
+    #grid3 {
+        width: 500px;
+        padding: 50px;
+        grid-column: 2 / span 1;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #profileimg {
+        width: 150px;
+        height: 150px;
+        border-radius: 20%;
+        border: 10px double turquoise;
+        background-color: white;
+    }
+    #firstname {
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        margin: auto;
+        padding-top: 10px;
+        padding-left: 0px;
+        width: max-content;
+    }
+    #surname {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        margin: auto;
+        padding-top: 10px;
+        padding-left: 0px;
+        width: max-content;
+    }
+    #career {
+        font-size: 12px;
+        width: max-content;
+        margin: auto;
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+    #university {
+        font-size: 12px;
+        width: max-content;
+        margin: auto;
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+    #maincontentHome {
+        padding-top: 10px;
+    }
+    #maincontentPort {
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
+    h2 {
+        background-color: teal;
+        color: white;
+        font-size: 28px;
+        padding-left: 5%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    #grid1 {
+        width: 300px;
+    }
+    #grid4 {
+        width: 300px;
+    }
+    .centerul {
+        padding-left: 70px;
+    }
+}
