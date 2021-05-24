@@ -528,6 +528,8 @@ body {
     /* 16:9 */
     padding-top: 25px;
     height: 0;
+    width: fit-content;
+    height: fit-content;
 }
 
 .GamePlayVideo iframe {
