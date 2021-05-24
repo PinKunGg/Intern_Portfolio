@@ -127,7 +127,7 @@ function asepriteproject() {
 }
 
 function blenderproject() {
-    document.getElementById("projectshow").innerHTML = '<h3 class="projecttitle">Blender Projects</h3><br><b class="headerproject">Battle Suite model</b><br><img src="otherproject/unity/Blender_1.jpg" alt="" class="projectimg imgcenter">';
+    document.getElementById("projectshow").innerHTML = '<h3 class="projecttitle">Blender Project</h3><br><b class="headerproject">Battle Suite model</b><br><img src="otherproject/unity/Blender_1.jpg" alt="" class="projectimg imgcenter">';
     document.getElementById("projectshow").innerHTML += '<p class="projectdescription">"Model ที่ใช้สำหรับเกม Battle Suite"</p>'
     document.getElementById("projectshow").innerHTML += '<p class="centertxt">Battle Suite เป็นเกม 3D Thirdperson shooter ที่จะให้ผู้เล่นได้ขับหุ่นยนตร์ในการปกป้องเมืองต่าง ๆ</p>'
     document.getElementById("projectshow").innerHTML += '<br><hr><br>'
