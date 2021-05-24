@@ -757,8 +757,14 @@ body {
         padding-left: 150px;
     }
     .GamePlayVideo {
+        position: relative;
+        padding-bottom: 50%;
+        /* 16:9 */
+        padding-top: 25px;
+        height: 0;
         width: 500px;
-        height: 325px;
+        height: fit-content;
+        margin: auto;
     }
 }
 
@@ -852,7 +858,13 @@ body {
         padding-left: 70px;
     }
     .GamePlayVideo {
+        position: relative;
+        padding-bottom: 50%;
+        /* 16:9 */
+        padding-top: 25px;
+        height: 0;
         width: 300px;
-        height: 225px;
+        height: fit-content;
+        margin: auto;
     }
 }
