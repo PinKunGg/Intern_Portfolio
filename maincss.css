@@ -522,6 +522,26 @@ body {
     background-color: #555;
 }
 
+.GamePlayVideo {
+    position: relative;
+    padding-bottom: 50%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+
+.GamePlayVideo iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.centerObj {
+    margin: auto;
+}
+
 
 /* Top Button ref: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 
@@ -733,6 +753,10 @@ body {
     .centerul {
         padding-left: 150px;
     }
+    .GamePlayVideo {
+        width: 500px;
+        height: 325px;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -823,5 +847,9 @@ body {
     }
     .centerul {
         padding-left: 70px;
+    }
+    .GamePlayVideo {
+        width: 300px;
+        height: 225px;
     }
 }
