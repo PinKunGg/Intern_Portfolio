@@ -47,6 +47,17 @@ function unityproject() {
     document.getElementById("projectshow").innerHTML += '<small class="projectcontent">*เนีิ้องจากตัวเกมมีขนาดที่ค่อนข้างใหญ่จึงไม่สามารถ Upload ขึ้น GitHub หรือ BitBucket ได้</small>'
     document.getElementById("projectshow").innerHTML += '<br>'
 
+    document.getElementById("projectshow").innerHTML += '<br><hr><br><b class="headerproject">Tofu Battle Arena: Online</b><br><img src="otherproject/unity/TofuBattleArena_1.jpg" alt="" class="projectimg imgcenter">'
+    document.getElementById("projectshow").innerHTML += '<p class="projectdescription">"Tofu Battle Arena: Online เป็นเกม Multiplayer 3D ที่จะแบ่งทีมผู้เล่นออกเป็น 2 ทีม โดยแข่งกัน Capture Point"</p>'
+    document.getElementById("projectshow").innerHTML += '<p class="projectcontent">Tofu Battle Arena: Online เป็นเกม Multiplayer 3D ที่สามารถเล่นได้ 4 คน โดยจะแบ่งทีมผู้เล่นออกเป็น 2 ทีม'
+    document.getElementById("projectshow").innerHTML += '<p class="projectcontent">ทีมไหนที่ Capture ได้ครับ 100% ก่อนจะเป็นฝ่ายชนะ</p>'
+    document.getElementById("projectshow").innerHTML += '<br>'
+    document.getElementById("projectshow").innerHTML += '<p class="projectcontent","centertxt">Preview Gameplay</p>'
+        //document.getElementById("projectshow").innerHTML += '<video class="GamePlayVideo" controls><source src="portfolio/vdo/Slash & Shoot_Xmas.mp4" type="video/mp4"></video>'
+    document.getElementById("projectshow").innerHTML += '<div class="GamePlayVideo"><iframe width="560" height="315" src="https://www.youtube.com/embed/8wMWQnq-4wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+    document.getElementById("projectshow").innerHTML += '<br>'
+    document.getElementById("projectshow").innerHTML += '<p class="projectcontent">GitHub: <a href="https://github.com/PinKunGg/Tofu-Battle-Arean-Online" target="_blank">https://github.com/PinKunGg/Tofu-Battle-Arean-Online</a></p>'
+
     document.getElementById("projectshow").innerHTML += '<br><hr><br><b class="headerproject">Slash and Shoot [AR]</b><br><img src="otherproject/unity/SlashAndShoot_1.jpg" alt="" class="projectimg imgcenter">'
     document.getElementById("projectshow").innerHTML += '<p class="projectdescription">"Slash and Shoot เป็นเกม 3D AR ที่จะให้ผู้เล่นป้องกันฐานในเวลาที่กำหนด"</p>'
     document.getElementById("projectshow").innerHTML += '<p class="projectcontent">Slash and Shoot เป็นเกมที่ผมได้ทำขึ้นมาในช่วง ปี 3 เป็นเกม AR ที่ผู้เล่นจะต้องป้องกันฐานของเราในเวลาที่กำหนด</p>'
